@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+
+}
+
+.imagen-qr{
+    width: 100%;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: auto;
+    width: 200px;
+    height: 320px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 16px;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.parrafo_1{
+    color: hsl(218, 44%, 22%);
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.parrafo_2{
+    color:hsl(216, 15%, 48%);
+    font-size: 11px;
+}
+
+.parrafos{
+    width: 92%;
+    padding-right: 8px;
+    padding-top: 0;
+    margin-top: 0;
+    
+
+}
+
+@media screen and (max-width: 375px){
+    .container{
+        width:75%;
+        height: 55%;
+        
+        
+    }
+    .imagen-qr{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .parrafo_2{
+        font-size: 15px;
+    }
+    .parrafo_1{
+        font-size: 20px;
+    }
+    .parrafos{
+        margin-top: 10px;
+        width: 90%;
+    }
+
+   
+    
+    
+}
